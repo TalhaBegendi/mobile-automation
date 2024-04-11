@@ -1,0 +1,87 @@
+[
+  {
+    "key": "homepage.myAccount",
+    "value": "com.pozitron.hepsiburada:id/menuItemAccountFakeView",
+    "type": "id"
+  },
+  {
+    "key": "close.advertButton",
+    "value": "com.pozitron.hepsiburada:id/com_braze_inappmessage_full_close_button",
+    "type": "id"
+  },
+  {
+    "key": "myAccount.login",
+    "value": "//android.widget.Button[@resource-id='com.pozitron.hepsiburada:id/button' and @text='Giriş yap']",
+    "type": "xpath"
+  },
+  {
+    "key": "input.email",
+    "value": "//android.widget.EditText[@resource-id='txtUserName']",
+    "type": "xpath"
+  },
+  {
+    "key": "input.password",
+    "value": "//android.widget.EditText[@resource-id='txtPassword']",
+    "type": "xpath"
+  },
+  {
+    "key": "myAccount.loginButton",
+    "value": "//android.widget.Button[@resource-id='btnLogin']",
+    "type": "xpath"
+  },
+  {
+    "key": "assert.successLoginText",
+    "value": "//android.widget.TextView[@resource-id='com.pozitron.hepsiburada:id/alertTitle']",
+    "type": "xpath"
+  },
+  {
+    "key": "homepage.searchbarButton",
+    "value": "//android.widget.EditText[@resource-id=\"com.pozitron.hepsiburada:id/etSearchBox\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "input.searchbar",
+    "value": "//android.widget.EditText[@resource-id='com.pozitron.hepsiburada:id/etSearchBox']",
+    "type": "xpath"
+  },
+  {
+    "key": "categories.filterButton",
+    "value": "//android.widget.TextView[@resource-id='com.pozitron.hepsiburada:id/txtOptionBarFilters']",
+    "type": "xpath"
+  },
+  {
+    "key": "filter.priceAreaButton",
+    "value": "(//android.view.ViewGroup[@resource-id='com.pozitron.hepsiburada:id/lyt_filter_container'])[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "input.filter.minPrice",
+    "value": "//android.widget.EditText[@resource-id='com.pozitron.hepsiburada:id/editTextPriceMin']",
+    "type": "xpath"
+  },
+  {
+    "key": "input.filter.maxPrice",
+    "value": "//android.widget.EditText[@resource-id='com.pozitron.hepsiburada:id/editTextPriceMax']",
+    "type": "xpath"
+  },
+  {
+    "key": "filter.applyButton",
+    "value": "//android.view.ViewGroup[@resource-id='com.pozitron.hepsiburada:id/content_wrapper']/android.widget.LinearLayout",
+    "type": "xpath"
+  },
+  {
+    "key": "filter.getAllProduct",
+    "value": "//android.view.ViewGroup[@resource-id='com.pozitron.hepsiburada:id/content_wrapper']/android.widget.LinearLayout",
+    "type": "xpath"
+  },
+  {
+    "key": "product.firstProduct",
+    "value": "(//android.widget.ImageView[@resource-id='com.pozitron.hepsiburada:id/ivProduct'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "assert.addToBasketText",
+    "value": "//android.widget.TextView[@text='Sepete ekle']",
+    "type": "xpath"
+  }
+]
