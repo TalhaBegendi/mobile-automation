@@ -1,7 +1,8 @@
 Feature: Hepsiburada Mobile Scenarios
 
   Background:
-    Given Click "close.advertButton" close advert button
+    Given Click "close.toastAdvertButton" close advert button
+    And Click "close.advertButton" close advert button
 
   Scenario: Scenario 1
     When Click "homepage.myAccount" element
@@ -15,9 +16,9 @@ Feature: Hepsiburada Mobile Scenarios
 
   Scenario: Scenario 2
     When Click "input.searchbar" element
-    And Fill "input.searchbar" field with "lenovo"
-    And Enter keyboard
+    And Fill "input.searchbar" field with "Lenovo"
     And Wait for given seconds 1
+    And Enter keyboard
     And Click "categories.filterButton" element
     And Click "filter.priceAreaButton" element
     And Wait for given seconds 1

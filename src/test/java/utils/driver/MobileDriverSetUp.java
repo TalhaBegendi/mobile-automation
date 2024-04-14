@@ -9,6 +9,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -43,7 +44,7 @@ public class MobileDriverSetUp {
     }
 
     public static void popupPermission() {
-        WebDriverWait wait = new WebDriverWait(DRIVER, 15);
+        WebDriverWait wait = new WebDriverWait(DRIVER, Duration.ofMillis(10000));
         try {
             wait.until(ExpectedConditions.alertIsPresent());
             Alert alert = DRIVER.switchTo().alert();

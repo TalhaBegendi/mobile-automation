@@ -16,17 +16,17 @@
   },
   {
     "key": "input.email",
-    "value": "//android.widget.EditText[@resource-id='txtUserName']",
+    "value": "//android.webkit.WebView[@text='Üye Giriş Sayfası & Üye Ol - Hepsiburada']/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.EditText",
     "type": "xpath"
   },
   {
     "key": "input.password",
-    "value": "//android.widget.EditText[@resource-id='txtPassword']",
+    "value": "//android.webkit.WebView[@text='Üye Giriş Sayfası & Üye Ol - Hepsiburada']/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText",
     "type": "xpath"
   },
   {
     "key": "myAccount.loginButton",
-    "value": "//android.widget.Button[@resource-id='btnLogin']",
+    "value": "//android.widget.Button[@text='Giriş yap']",
     "type": "xpath"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "key": "homepage.searchbarButton",
-    "value": "//android.widget.EditText[@resource-id=\"com.pozitron.hepsiburada:id/etSearchBox\"]",
+    "value": "//android.widget.EditText[@resource-id='com.pozitron.hepsiburada:id/etSearchBox']",
     "type": "xpath"
   },
   {
@@ -82,6 +82,11 @@
   {
     "key": "assert.addToBasketText",
     "value": "//android.widget.TextView[@text='Sepete ekle']",
+    "type": "xpath"
+  },
+  {
+    "key": "close.toastAdvertButton",
+    "value": "//androidx.recyclerview.widget.RecyclerView[@resource-id='com.pozitron.hepsiburada:id/homeComponents']",
     "type": "xpath"
   }
 ]

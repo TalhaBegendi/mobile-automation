@@ -1,8 +1,7 @@
 package utils.helpers;
 
+import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.nativekey.AndroidKey;
-import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
@@ -35,6 +34,6 @@ public class Helper {
     }
 
     public void enterKeyboard() {
-        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
+        ((JavascriptExecutor) driver).executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search"));
     }
 }
