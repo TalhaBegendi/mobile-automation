@@ -1,4 +1,4 @@
-# Hepsiburada Mobile Test Otomasyonu UI
+Mobile Test Otomasyonu UI
 
 Bu README dosyası, Hepsiburada'nın Mobile test otomasyonu projesi için gerekli bilgileri içermektedir. Kullanıcıları bilgilendirmek amacıyla aşağıdaki adımlar ve talimatlar sunulmuştur.
 
