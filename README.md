@@ -53,4 +53,4 @@ Bu README dosyası, Hepsiburada'nın Mobile test otomasyonu projesi için gerekl
 
 ## Yazar
 
-Cansu Denz Aksoy
+Cansu Deniz Aksoy
