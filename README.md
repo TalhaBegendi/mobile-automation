@@ -50,7 +50,3 @@ Bu README dosyası, Hepsiburada'nın Mobile test otomasyonu projesi için gerekl
    1. **MobileDriverSetUp Hakkında**
       * Appium Driver'ının başlatılacağı method buda bulunmaktadır. 
       * Appium GUI ile bağlantı kurulacak URL ve APK dosyasının yerini burdaki method içersinden belirlenmektedir.
-
-## Yazar
-
-Cansu Deniz Aksoy
